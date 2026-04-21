@@ -7,7 +7,7 @@
     <section>
             <form action="">
                     
-                <!--Dados pessoais-->
+                <!--Dados pessoais
                     
                 <fieldset>    
                     <legend>Dados Pessoais</legend>
@@ -28,12 +28,26 @@
                         <br>
                         <label for="userimage">Anexar Imagem</label>
                         <input type="file" accept="image/*" name="userimage" >
-                        <br>
+                        <br>-->
+
+                        <fieldset>
+                                <input type="radio" name="user gender" value="masculino" required>
+                                <label for="male">Masculino</label>
+                                
+                                <input type="radio" name="user gender" value="feminino" required>
+                                <label for="female">Feminino</label>
+                                
+                                <input type="radio" name="user gender" value="outro" required>
+                                <label for="other">prefiro nao informar</label>
+                        </fieldset>
                     
 
 
 
                         <button type="submit">Enviar</button></fieldset>
+
+
+
                     
                     
             </form>
